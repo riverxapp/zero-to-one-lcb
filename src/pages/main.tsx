@@ -1,0 +1,1 @@
+// This file is intentionally left empty - page-level router configuration is handled in src/app/routes.tsx and src/main.tsx as per the project structure and routing guidelines.
