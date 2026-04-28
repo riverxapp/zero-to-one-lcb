@@ -1,85 +1,118 @@
-# Project Context
+<h1>Project Context</h1>
 
-## Identity
-- **Repo:** riverxapp/zero-to-one-lcb
-- **Branch:** main
-- **Code Type:** vite
+<h2>Identity</h2>
+<ul>
+  <li><strong>Repo:</strong> riverxapp/zero-to-one-lcb</li>
+  <li><strong>Branch:</strong> main</li>
+  <li><strong>Code Type:</strong> vite</li>
+</ul>
 
-## Brand Context
-- **Brand:** Zero To
-- **Positioning:** A fast React single-page product experience that keeps workflows intuitive and responsive.
-- **Audience:** Primary product users
+<h2>Brand Context</h2>
+<ul>
+  <li><strong>Brand:</strong> Zero To</li>
+  <li><strong>Positioning:</strong> A fast React single-page product experience that keeps workflows intuitive and responsive.</li>
+  <li><strong>Audience:</strong> Primary product users</li>
+</ul>
 
-## Product Vision
-Zero To is designed to define and execute product scope via a fast, intuitive React SPA, emphasizing user-visible outcomes in coherent, iterative steps. Each development request delivers explicit acceptance criteria and visible value.
+<h2>Product Vision</h2>
+<p>Zero To is designed to define and execute product scope via a fast, intuitive React SPA, emphasizing user-visible outcomes in coherent, iterative steps. Each development request delivers explicit acceptance criteria and visible value.</p>
 
----
+<hr />
 
-## Scope Foundations
+<h2>Scope Foundations</h2>
 
-### Core Problem
-Enable rapid, scoped execution of user-driven features with visible impact.
+<h3>Core Problem</h3>
+<p>Enable rapid, scoped execution of user-driven features with visible impact.</p>
 
-### Goals
-- Maintain requirements coherence across requests
-- Deliver value in small, actionable iterations
+<h3>Goals</h3>
+<ul>
+  <li>Maintain requirements coherence across requests</li>
+  <li>Deliver value in small, actionable iterations</li>
+</ul>
 
-### Constraints
-- Scope changes only to requested surfaces
-- Preserve existing architecture/flows
+<h3>Constraints</h3>
+<ul>
+  <li>Scope changes only to requested surfaces</li>
+  <li>Preserve existing architecture/flows</li>
+</ul>
 
-### Non-Goals
-- Avoid rebuilding unrelated modules
+<h3>Non-Goals</h3>
+<ul>
+  <li>Avoid rebuilding unrelated modules</li>
+</ul>
 
-### Success Metrics
-- Each request documents clear acceptance criteria and done conditions
+<h3>Success Metrics</h3>
+<ul>
+  <li>Each request documents clear acceptance criteria and done conditions</li>
+</ul>
 
-### Roles
-- Owner
-- Member
+<h3>Roles</h3>
+<ul>
+  <li>Owner</li>
+  <li>Member</li>
+</ul>
 
-### Core Entities
-- Primary workspace entity
-- User profile
+<h3>Core Entities</h3>
+<ul>
+  <li>Primary workspace entity</li>
+  <li>User profile</li>
+</ul>
 
-### Integrations
-- None
+<h3>Integrations</h3>
+<ul>
+  <li>None</li>
+</ul>
 
----
+<hr />
 
-## Full Build Roadmap
+<h2>Full Build Roadmap</h2>
+<ol>
+  <li><strong>Request 1:</strong> Brand alignment, SPA shell, core route/page surfaces</li>
+  <li><strong>Request 2:</strong> Core entity CRUD, state/validation</li>
+  <li><strong>Request 3:</strong> Collaboration, role-awareness, UX resilience</li>
+  <li><strong>Request 4:</strong> Reporting, automations, performance/quality polish</li>
+</ol>
 
-1. **Request 1:** Brand alignment, SPA shell, core route/page surfaces
-2. **Request 2:** Core entity CRUD, state/validation
-3. **Request 3:** Collaboration, role-awareness, UX resilience
-4. **Request 4:** Reporting, automations, performance/quality polish
+<hr />
 
----
+<h2>Recent Execution Summary</h2>
 
-## Request 1: Ready to Implement
+<p><strong>Latest completed execution impacted 6 files:</strong></p>
+<ul>
+  <li>src/app/routes.tsx (chore: deterministic patch step 1/1 - src/app/routes.tsx)</li>
+  <li>src/main.tsx (chore: deterministic patch step 1/1 - src/main.tsx)</li>
+  <li>src/pages/projects.tsx (chore: deterministic patch step 1/1 - src/pages/projects.tsx)</li>
+  <li>src/pages/main.tsx (chore: deterministic patch step 1/1 - src/pages/main.tsx)</li>
+  <li>src/api/projects.ts (chore: deterministic patch step 1/1 - src/api/projects.ts)</li>
+  <li>src/pages/home.tsx (chore: deterministic patch step 1/1 - src/pages/home.tsx)</li>
+</ul>
+<p>All changes reflect forward progress toward setting up deterministic patching, routing, and foundational page structure, inline with initial implementation goals.</p>
 
-**Brand:** Zero To  
-**Positioning:** Fast, intuitive, responsive React SPA experience  
-**Scope:** Branding/content alignment and foundational user-visible surfaces
+<h2>Current Project Scope &amp; Status</h2>
 
-### Implementation Jobs
+<ul>
+  <li><strong>Scope in progress:</strong> Project shell, routes, main, projects, and home pages updated for deterministic, user-visible value. Core file structure and routing surfacing primary workspace and project entities.</li>
+  <li><strong>Constraints:</strong> All existing architecture, flows, and design systems preserved unless explicitly requested. Unrelated modules not rebuilt.</li>
+  <li><strong>Done criteria:</strong> Each committed request maps directly to a visible product improvement with clear, documented change rationale.</li>
+</ul>
 
-1. **App Shell & Entry**
-    - Align `src/main.tsx` and `src/App.tsx` bootstrap and shell copy for product positioning.
-2. **Core Pages**
-    - Create foundational page surfaces and define initial route/page structure.
-3. **Shared Components**
-    - Establish reusable TSX primitives/sections for consistent UI.
-4. **Primary Workflows**
-    - Wire baseline state handling (loading/empty/error/success) for initial user journey.
+<h3>Next steps:</h3>
+<ul>
+  <li>Solidify state flow and validation for primary entities</li>
+  <li>Continue building towards CRUD and collaboration features</li>
+</ul>
 
----
+<hr />
 
-## README Template Context
+<h2>README Template Context</h2>
 
-**Base Commands:**
-- `pnpm install` — install dependencies
-- `pnpm run dev` — start development server
-- `pnpm run build` — build for production
+<p><strong>Base Commands:</strong></p>
+<ul>
+  <li><code>pnpm install</code> &mdash; install dependencies</li>
+  <li><code>pnpm run dev</code> &mdash; start development server</li>
+  <li><code>pnpm run build</code> &mdash; build for production</li>
+</ul>
 
-> RiverX base template: Production-ready Vite + React + TypeScript + Tailwind + shadcn/ui.
+<blockquote>
+  RiverX base template: Production-ready Vite + React + TypeScript + Tailwind + shadcn/ui.
+</blockquote>
