@@ -155,3 +155,4 @@ export function ProjectsIntake() {
 }
 
 export default ProjectsIntake;
+export const ProjectsIntakePage = ProjectsIntake;
