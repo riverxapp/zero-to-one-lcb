@@ -25,6 +25,12 @@ export function Home() {
             <Link to="#work">See Our Work</Link>
           </Button>
         </div>
+        {/* New prominent route-based CTA */}
+        <div className="mt-6 flex justify-center">
+          <Button asChild size="lg" className="bg-[#26170e] text-white hover:bg-[#44403c] px-8 py-2 text-base">
+            <Link to="/projects">Start Your Project &rarr;</Link>
+          </Button>
+        </div>
       </header>
 
       {/* Social Proof / Client Logos */}
@@ -259,6 +265,10 @@ export function Home() {
           </Button>
           <Button asChild variant="outline" size="lg" className="border-[#e7cdb4] bg-[#fffaf2] text-[#26170e] hover:bg-[#ffe7cf] px-8 py-2 text-base">
             <Link to="#hero">Back to Top</Link>
+          </Button>
+          {/* Route-based CTA at end also */}
+          <Button asChild variant="secondary" size="lg" className="ml-2 bg-[#d94828] text-white hover:bg-[#ff6b4a] px-8 py-2 text-base">
+            <Link to="/projects">Start Your Project</Link>
           </Button>
         </div>
         <p className="mt-4 text-xs text-[#6f5b4a]">{env.appName} &mdash; Your Bubble product partner</p>
